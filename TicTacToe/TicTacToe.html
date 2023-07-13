@@ -1,0 +1,38 @@
+<!--TicTacToe. html-->
+
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <title>Tic Tac Toe Game</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' href='css/game.css'>
+    </head>
+
+    <body id='body'>
+        <div class='center-container'>
+        <h1>Tic Tac Toe</h1>
+        <canvas id='win-lines' width='608' height='608'></canvas>
+        <table>
+            <tr>
+                <td id='0' onclick='placexoro("0")'></td>
+                <td id='1' onclick='placexoro("1")'></td>
+                <td id='2' onclick='placexor0("2")'></td>
+            </tr>
+            <tr>
+                <td id='3' onclick='placexor0("3")'></td>
+                <td id='4' onclick='placexor0("4")'></td>
+                <td id='5' onclick='placexor0("5")'></td>
+            </tr>
+            <tr>
+                <td id='6' onclick='placexor0("6")'></td>
+                <td id='7' onclick='placexor0("7")'></td>
+                <td id='8' onclick='placexoro("8")'></td>
+            </tr>
+        </table>
+    </div>
+    <script src='js/tictactoe.js'></script>
+</body>
+
+</html>
